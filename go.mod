@@ -99,4 +99,4 @@ tool (
 )
 
 // https://github.com/fyne-io/terminal/pull/121 but synced with newer master
-// replace github.com/fyne-io/terminal => github.com/mgabeler-lee-6rs/fyne-terminal v0.0.0-20250812171828-4d2567968a4f
+replace github.com/fyne-io/terminal => github.com/mgabeler-lee-6rs/fyne-terminal v0.0.0-20250812171828-4d2567968a4f
