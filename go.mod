@@ -3,9 +3,9 @@ module github.com/mgabeler-lee-6rs/fyne-terminal-slow
 go 1.24
 
 require (
-	fyne.io/fyne/v2 v2.6.2
+	fyne.io/fyne/v2 v2.6.3
 	github.com/docker/docker v28.3.3+incompatible
-	github.com/fyne-io/terminal v0.0.0-20250805210206-f3224d514e14
+	github.com/fyne-io/terminal v0.0.0-20250825160828-992a466dc185
 	golang.org/x/sync v0.16.0
 	golang.org/x/sys v0.35.0
 )
@@ -99,4 +99,4 @@ tool (
 )
 
 // https://github.com/fyne-io/terminal/pull/121 but synced with newer master
-replace github.com/fyne-io/terminal => github.com/mgabeler-lee-6rs/fyne-terminal v0.0.0-20250812171828-4d2567968a4f
+// replace github.com/fyne-io/terminal => github.com/mgabeler-lee-6rs/fyne-terminal v0.0.0-20250812171828-4d2567968a4f
